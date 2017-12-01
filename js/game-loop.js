@@ -23,7 +23,7 @@ function main() {
 }
 
 function init() {
-    terrainPattern = ctx.createPattern(resources.get('img/terrain.png'), 'repeat');
+    terrainPattern = ctx.createPattern(resources.get('img/moon.png'), 'repeat');
 
 	document.getElementById('play-again').addEventListener('click', reset);
 	
@@ -37,7 +37,7 @@ resources.load([
  	'img/ufo.png',
     'img/hero.png',
 	'img/bullet.png',
-    'img/terrain.png',
+    'img/moon.png',
     'img/bonus-increase-bullet-speed.png',
     'img/bonus-increase-score.png',
     'img/bonus-kill-enemies.png', 
